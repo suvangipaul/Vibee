@@ -1,7 +1,9 @@
 import './header.styles.css';
 function Header() {
   return (
-    <div>Header</div>
+    <header>
+        
+    </header>
   )
 }
 
