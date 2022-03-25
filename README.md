@@ -1,6 +1,15 @@
 # Vibee
 
 Making life socially connected.
+## Tech Stack Used
+
+ - [Random Data API](https://random-data-api.com/documentation)
+ - [React JS](https://reactjs.org/)
+ - [Node.JS](https://nodejs.org/en/)
+ - [Express.Js](https://expressjs.com/)
+ - [Swiper Js](https://swiperjs.com/)
+ - [MongooseJS](https://mongoosejs.com/)
+ - [Super Token](https://supertokens.com/) `authentication provider`
 
 ## UI Design
 
