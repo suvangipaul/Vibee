@@ -2,7 +2,7 @@ import './sidebar.styles.css'
 import { TextField } from '@mui/material'
 import { useState } from 'react'
 function Sidebar() {
-  const [ togglesideBar, setToggleSideBar ] = useState(false)
+  const [ togglesideBar, setToggleSideBar ] = useState(true)
 
   const class_sidebar = togglesideBar ? "side-bar-inputs display-none" : "side-bar-inputs"
 

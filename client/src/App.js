@@ -1,9 +1,9 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { Home, Dashboard, Profile } from './pages';
-<<<<<<< HEAD
+import Auth from './Auth';
 import { useState } from 'react'
-// import { Header } from './components';
+import { Header } from './components';
 import SuperTokens, { getSuperTokensRoutesForReactRouterDom } from "supertokens-auth-react";
 import ThirdPartyEmailPassword, {
   ThirdPartyEmailPasswordAuth,
@@ -44,9 +44,6 @@ SuperTokens.init({
     Session.init(),
   ],
 });
-=======
-import { Header } from './components';
->>>>>>> 9360ffd3f0a5bebc5a4c73a240bacdc170ffde51
 
 function App() {
   let [showSessionExpiredPopup, updateShowSessionExpiredPopup] = useState(false);
@@ -55,18 +52,18 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/profile" element={<Profile />} />
         {getSuperTokensRoutesForReactRouterDom(require("react-router-dom"))}
         <Route
-          path="/"
+          path="/auth"
           element={
             <ThirdPartyEmailPasswordAuth
               onSessionExpired={() => {
                 updateShowSessionExpiredPopup(true);
               }}>
-              <Home />
+              <Auth />
               {showSessionExpiredPopup && <SessionExpiredPopup />}
             </ThirdPartyEmailPasswordAuth>
           }

@@ -1,9 +1,11 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
+import UserProfile from '../../components/userprofile/userprofile.components'
+import { Link } from 'react-router-dom'
 function Profile() {
   const [ users, setUsers ] = useState(null) 
   useEffect(()=> {
-    axios.get('https://random-data-api.com/api/users/random_user?size=30')
+    axios.get('https://random-data-api.com/api/users/random_user?size=50')
     .then((res) => {
       console.log(res.data)
       setUsers(res.data)
@@ -13,7 +15,11 @@ function Profile() {
   return (
     <div className="pages">
       <h1>Profile</h1>
-      {/* <h2>{users[0].first_name}</h2> */}
+      { users.map((user) => (
+        <Link to={`/profile/${user.username}`}>
+          <UserProfile {...user}/>  
+        </Link>
+      ))}
     </div>
   )
 }
