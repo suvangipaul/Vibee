@@ -1,11 +1,10 @@
-import React from "react";
 import Logout from "./Logout";
 import SuccessView from "./SuccessView";
 import { useSessionContext } from "supertokens-auth-react/recipe/session";
 import { useNavigate } from "react-router-dom";
 import { signOut } from "supertokens-auth-react/recipe/thirdpartyemailpassword";
 
-export default function Home() {
+export default function Auth() {
     const { userId } = useSessionContext();
     const navigate = useNavigate();
 

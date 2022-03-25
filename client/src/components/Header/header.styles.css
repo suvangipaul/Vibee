@@ -9,15 +9,17 @@ header{
     width: 80%;
     top: 10px;
     backdrop-filter: blur(29px);
+    z-index: 21;
 }
 img {
     height: 40px;
 }
 /* Navigation bar */
 .navbar {
-    background-color: #EEEEEE;
+    background-color: #eeeeee50;
     border-radius: 10px;
     padding: 12px 10px;
+    backdrop-filter: blur(29px);
 }
 nav {
     display: flex;
@@ -50,5 +52,5 @@ font-style: normal;
 }
 
 .nav-list li a:hover {
-    color: yellow;
+    color: rgb(255, 255, 255);
 }

@@ -16,14 +16,13 @@ const websiteDomain = process.env.REACT_APP_WEBSITE_URL || `http://localhost:${w
 supertokens.init({
     framework: "express",
     supertokens: {
-        // TODO: This is a core hosted for demo purposes. You can use this, but make sure to change it to your core instance URI eventually.
         connectionURI: "https://try.supertokens.com",
         apiKey: "<REQUIRED FOR MANAGED SERVICE, ELSE YOU CAN REMOVE THIS FIELD>",
     },
     appInfo: {
-        appName: "SuperTokens Demo App", // TODO: Your app name
-        apiDomain, // TODO: Change to your app's API domain
-        websiteDomain, // TODO: Change to your app's website domain
+        appName: "Vibee", 
+        apiDomain, 
+        websiteDomain, 
     },
     recipeList: [
         ThirdPartyEmailPassword.init({
