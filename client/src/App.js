@@ -2,6 +2,7 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { Home, Dashboard, Profile } from './pages';
 import { Header } from './components';
+import  Footer  from './components/footer/footer.components';
 import { useAuth0 } from "@auth0/auth0-react";
 import Loading from './components/Loader/Loading';
 import users  from './assets/users.json';
@@ -26,6 +27,8 @@ function App() {
         {isAuthenticated && (<Route path="/profile" element={<Profile />} />)}
         {users.map((user) => (<Route path={`/${user.username}`}  element={<UserProfile {...user}/>}/>) )}
       </Routes>
+      <Footer/>
+        
     </div>
   );
 }
