@@ -9,7 +9,7 @@ Making life socially connected.
  - [Express.Js](https://expressjs.com/)
  - [Swiper Js](https://swiperjs.com/)
  - [MongooseJS](https://mongoosejs.com/)
- - [Super Token](https://supertokens.com/) `authentication provider`
+ - [Auth0](https://auth0.com/) `authentication provider`
 
 ## UI Design
 

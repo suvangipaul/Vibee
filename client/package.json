@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@auth0/auth0-react": "^1.9.0",
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
     "@mui/material": "^5.5.2",
@@ -30,18 +31,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "npm-run-all --parallel spa api-server",
-    "spa": "react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "api-server": "node api-server.js",
-    "api-server:dev": "nodemon api-server.js",
-    "server": "node ignore_this.js",
-    "server:dev": "nodemon ignore_this.js",
-    "dev": "npm-run-all --parallel spa api-server:dev",
-    "prod": "npm-run-all --parallel server api-server",
-    "release": "bash -c './scripts/release.sh'"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
