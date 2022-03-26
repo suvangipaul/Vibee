@@ -12,7 +12,9 @@
 .user-icons {
     height: 4rem;
     width: 4rem;
-    background-color: grey;
+    background-color:  #FFC0D3;
+    border-radius: 100px;
+    border: 2px solid  #E83A14;
     text-align: center;
     margin: 0 .5rem;
     border-radius: 100px;
