@@ -7,7 +7,6 @@ header {
   position: fixed;
   width: 80%;
   top: 10px;
-  backdrop-filter: blur(29px);
   z-index: 21;
 }
 img {
@@ -88,7 +87,9 @@ nav {
   text-decoration: none;
   display: block;
 }
-
+.dropdown-list p {
+    cursor: pointer;
+}
 .dropdown:hover .dropdown-list {
   display: block;
 }
