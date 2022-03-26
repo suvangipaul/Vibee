@@ -3,7 +3,6 @@
     padding: 1rem 2rem;
 }
 .details1{
-height: 5rem;
 
 }
 .details2{
@@ -21,6 +20,17 @@ height: 5rem;
    background: #C4C4C4;
     border-radius: 30px;
     height: 5rem;
+}
+.interest-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.intere{
+    padding: 0 1rem;
+    margin: .2rem;
+    border-radius: 25px;
+    border: 1px solid black;
 }
 .membership{
     height: 4rem;
