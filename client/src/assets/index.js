@@ -1,0 +1,6 @@
+export { default as AMONGUS } from './among-us.png'
+export { default as CSGO } from './cs-go.png'
+export { default as CRICKET } from './cricket.png'
+export { default as BADMINTON } from './badminton.png'
+export { default as KHOKHO } from './khokho.png'
+export { default as CHESS } from './chess.png'

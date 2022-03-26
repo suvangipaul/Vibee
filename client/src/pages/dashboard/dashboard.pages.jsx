@@ -1,7 +1,6 @@
 import Sidebar from "../../components/Sidebar/sidebar.components"
 import { Rooms } from "../../components"
 import './dashboard.styles.css'
-
 function Dashboard() {
   return (
     <div className="dash-page">

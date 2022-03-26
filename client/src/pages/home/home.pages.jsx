@@ -6,6 +6,17 @@ function Home() {
 
   return (
     <div className="home-page">
+      <div class="background">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
       <section className="spreads-section">
         <div className="spreads"></div>
         <div className="spreads"></div>
