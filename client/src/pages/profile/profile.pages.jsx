@@ -15,11 +15,11 @@ function Profile() {
   return (
     <div className="pages">
       <h1>Profile</h1>
-      { users.map((user) => (
+      {/* { users.map((user) => (
         <Link to={`/profile/${user.username}`}>
           <UserProfile {...user}/>  
         </Link>
-      ))}
+      ))} */}
     </div>
   )
 }

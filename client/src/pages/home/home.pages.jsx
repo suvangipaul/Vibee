@@ -1,7 +1,10 @@
 import "./home.styles.css";
 import LOGOWHITE from "../../assets/logo.png";
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
+import { useAuth0 } from '@auth0/auth0-react'
 function Home() {
+  const { loginWithRedirect } = useAuth0();
+
   return (
     <div className="home-page">
       <section className="spreads-section">
@@ -15,11 +18,9 @@ function Home() {
               <img className="brand-img" src={LOGOWHITE} alt="" />
             </div>
             <div className="login-container">
-              <Link to="/auth">
-                <div className="login-content">
+                <div className="login-content" onClick={() => loginWithRedirect()}>
                   <h2>Login</h2>
                 </div>
-              </Link>
             </div>
           </div>
         </div>
