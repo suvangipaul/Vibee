@@ -50,9 +50,9 @@ export default function Header() {
                 <div className="dropdown-list">
                   <a href="/profile">Visit Profile</a>
                   <a href="/settings">settings</a>
-                  <a href="/" onClick={() => logoutWithRedirect()}>
+                  <p onClick={() => logoutWithRedirect()}>
                     Log Out
-                  </a>
+                  </p>
                 </div>
               </div>
               <img className="profile-pic" src={user.picture} alt="" />

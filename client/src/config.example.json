@@ -1,0 +1,5 @@
+{
+    "domain": "<username>.us.auth0.com",
+    "clientId": "",
+    "audience": "https://<user-namme>.us.auth0.com/api/v2/"
+}

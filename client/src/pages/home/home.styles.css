@@ -81,9 +81,9 @@ section .spreads:nth-child(2) {
   transition: all .8s;
   color: white;
   text-decoration: none;
-}
-.login-content h2 {
-  margin-top: 3.8rem;
+  font-family: 'Poppins', sans-serif;
+  background-color: transparent;
+  font-size: 1.5rem;
 }
 
 .login-content:hover {
