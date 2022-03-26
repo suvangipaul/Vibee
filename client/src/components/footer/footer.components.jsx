@@ -43,7 +43,7 @@ function Footer() {
     </ul>
     <div class="b-footer">
     <p>
-    All rights reserved by ©CompanyName 2020 </p>
+    All rights reserved by Vibee 2022 </p>
     </div>
     </footer>
     </div>
