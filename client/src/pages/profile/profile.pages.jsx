@@ -1,26 +1,22 @@
-
-// import { useEffect, useState } from 'react'
+import { useAuth0 } from "@auth0/auth0-react";
+import "./profile.styles.css";
 function Profile() {
-  // const [ users, setUsers ] = useState(null) 
-  // useEffect(()=> {
-  //   axios.get('https://random-data-api.com/api/users/random_user?size=50')
-  //   .then((res) => {
-  //     console.log(res.data)
-  //     setUsers(res.data)
-  //   })
-  //   .catch((err) => console.error(err))
-  // }, [])
+  const { user } = useAuth0();
   return (
-    <div className="pages">
+    <div className="profile-pages">
       <h1>Profile</h1>
-      {/* { users.map((user) => (
-        <Link to={`/profile/${user.username}`}>
-          <UserProfile {...user}/>  
-        </Link>
-      ))} */}
+      <div className="profile-bg"></div>
+
+
+      <div className="profile-container">      
+        <img className="pro-img" src={user.picture} alt="" />
+        <div className="user-data">
+          <h3>{user.name}</h3>
+          <p>@{user.nickname}</p>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Profile
-// https://retoolapi.dev/cOlkMs/data
+export default Profile;
