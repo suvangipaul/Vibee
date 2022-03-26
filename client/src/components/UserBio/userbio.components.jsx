@@ -1,6 +1,8 @@
 import React from "react";
+import { CLUB1 , CLUB2 , CLUB3 , CLUB4 , CLUB5 } from "../../assets";
 import "./userbio.styles.css";
 function UserBio() {
+  const clubs = [ CLUB1 , CLUB2 , CLUB3 , CLUB4 , CLUB5 ]
   const interests = ["Football", "Among Us", "UNO", "Chess", "CS GO","Cycling"]
   return (
     <div className="user-bio">
@@ -18,10 +20,9 @@ function UserBio() {
         <hr/>
         <div className="position1">
         {
-          [...Array(5)].map((user, key) => (
-            <div className="membership">
-              {key}
-            </div>
+         clubs.map((club, key) => (
+          <div><img alt="" src={club} className="membership"/></div>
+              
           ))
         }
         </div>
