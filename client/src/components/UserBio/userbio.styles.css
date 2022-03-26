@@ -9,7 +9,7 @@
     height : 8rem;
 }
 .position1{
-    background: #C4C4C4;
+
     border-radius: 20px;
     width: 100%;
     display: flex;
@@ -31,4 +31,14 @@
     margin: .2rem;
     border-radius: 25px;
     border: 1px solid black;
+}
+.membership{
+    height: 4rem;
+    width: 4rem;
+    background-color: #F4FCD9;
+    border-radius: 100px;
+    border: 2px solid  #F10086;
+    text-align: center;
+    margin: 0 .5rem;
+    border-radius: 100px;
 }

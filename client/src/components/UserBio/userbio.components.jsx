@@ -19,7 +19,7 @@ function UserBio() {
         <div className="position1">
         {
           [...Array(5)].map((user, key) => (
-            <div className="user-icons">
+            <div className="membership">
               {key}
             </div>
           ))
