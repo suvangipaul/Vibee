@@ -1,6 +1,6 @@
 
 import './rooms.styles.css'
-import { CSGO, AMONGUS, BADMINTON, CHESS, CRICKET, KHOKHO, LOCATION } from '../../assets'
+import { CSGO, AMONGUS, BADMINTON, CHESS, CRICKET, KHOKHO } from '../../assets'
 
 const ROOMS = [
     {
