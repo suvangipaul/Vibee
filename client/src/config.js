@@ -1,6 +1,4 @@
 import config from "./config.json";
-
-require('dotenv').config()
 export const getConfig = () => {
 
     const audience = 
