@@ -15,8 +15,8 @@ function UserStats() {
         </div>
       </div>
       <p className='title'>Tokens</p>
-      <div className="second">
-        
+      <div className="second no-data">
+        <p>No data Available</p>
       </div>
     </div>
   )

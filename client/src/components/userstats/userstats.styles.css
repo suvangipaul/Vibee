@@ -22,8 +22,14 @@ justify-content: space-between;
 }
 
 .second{
-    background: #C4C4C4;
     border-radius: 11px;
     width: 271px;
     height: 369px;
+}
+
+.no-data {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
