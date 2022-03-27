@@ -1,6 +1,11 @@
 # Vibee
 
 Making life socially connected.
+
+## Idea
+
+Vibee is a website for social interaction through remote means. Its main idea is to connect with neighbourly people and play games, talk and tell stories, deepen friendships and meet new and interesting people from various areas . Well, this website being an app for connecting the people, provides the people with an opportunity to spend countless hours mostly networking and gaming and plugging their own rooms without any disturbances.
+
 ## Tech Stack Used
 
  - [Random Data API](https://random-data-api.com/documentation)
@@ -9,6 +14,11 @@ Making life socially connected.
  - [Express.Js](https://expressjs.com/)
  - [MongooseJS](https://mongoosejs.com/)
  - [Auth0](https://auth0.com/) `authentication provider`
+
+## Inspiration behind this
+
+How many of us have longed to reach out to others, while being either stuck at home and/or distant? How many of us can’t find people to play random games with amidst this pandemic? The Vibee app brings the idea of creating rooms for interaction between people after which they can decide to play some games together to stay connected. The intent of this website is to foster community which can offer widespread interaction and forge new friendships. This app also keeps in sight the statistics of the all the games played and offers many more.
+
 
 ## UI Design
 
@@ -29,7 +39,7 @@ cd client
 
 # install dependencies required for the project
 npm install
-
+npm run start
 
 ```
 
