@@ -7,7 +7,6 @@ Making life socially connected.
  - [React JS](https://reactjs.org/)
  - [Node.JS](https://nodejs.org/en/)
  - [Express.Js](https://expressjs.com/)
- - [Swiper Js](https://swiperjs.com/)
  - [MongooseJS](https://mongoosejs.com/)
  - [Auth0](https://auth0.com/) `authentication provider`
 
