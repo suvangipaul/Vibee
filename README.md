@@ -26,10 +26,11 @@ git clone https://github.com/<user-name>/Vibee.git
 
 cd Vibee
 
+cd client
+
 # install dependencies required for the project
 npm install
 
-cd client
 
 ```
 
