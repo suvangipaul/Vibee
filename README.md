@@ -19,6 +19,34 @@ Making life socially connected.
 ---
 ![](https://i.imgur.com/gScLpyT.jpg)
 
+# Setting Up Locally
+
+```
+git clone https://github.com/<user-name>/Vibee.git
+
+cd Vibee
+
+# install dependencies required for the project
+npm install
+
+cd client
+
+```
+
+Our Website uses Auth0 for Authentication, you need to configure the `config.json`
+- Rename the config.example.json file to config.json file.
+```
+{
+    "domain": "<username>.us.auth0.com",
+    "clientId": "",
+    "audience": "https://<user-namme>.us.auth0.com/api/v2/"
+}
+```
+
+![](https://cdn2.auth0.com/docs/1.12869.0/media/articles/dashboard/client_settings.png)
+
+- `audience`
+![](https://i.imgur.com/dE79hGC.png)
 
 # Members 
 
