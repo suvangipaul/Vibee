@@ -2,10 +2,10 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 import { Home, Dashboard, Profile } from './pages';
 import { Header } from './components';
-import  Footer  from './components/footer/footer.components';
+import Footer from './components/footer/footer.components';
 import { useAuth0 } from "@auth0/auth0-react";
 import Loading from './components/Loader/Loading';
-import users  from './assets/users.json';
+import users from './assets/users.json';
 import { UserProfile } from './components';
 function App() {
   const { isLoading, error, isAuthenticated } = useAuth0();
@@ -14,8 +14,8 @@ function App() {
     return <div>Oops... {error.message}</div>;
   }
 
-  if(isLoading){
-    return <Loading/>
+  if (isLoading) {
+    return <Loading />
   }
 
   return (
@@ -25,10 +25,10 @@ function App() {
         {!isAuthenticated && (<Route path="/" element={<Home />} />)}
         {isAuthenticated && (<Route path="/" element={<Dashboard />} />)}
         {isAuthenticated && (<Route path="/profile" element={<Profile />} />)}
-        {users.map((user) => (<Route path={`/${user.username}`}  element={<UserProfile {...user}/>}/>) )}
+        {users.map((user) => (<Route path={`/${user.username}`} element={<UserProfile {...user} />} />))}
       </Routes>
-      <Footer/>
-        
+      <Footer />
+
     </div>
   );
 }
