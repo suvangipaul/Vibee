@@ -1,7 +1,9 @@
 import Sidebar from "../../components/Sidebar/sidebar.components"
 import { Rooms } from "../../components"
+import { AV1, AV2, AV3, AV4, AV5, AV6, AV7 } from "../../assets"
 import './dashboard.styles.css'
 function Dashboard() {
+  const avatars = [AV1, AV2, AV3, AV4, AV5, AV6, AV7]
   return (
     <div className="dash-page">
       <Sidebar/>
@@ -9,10 +11,8 @@ function Dashboard() {
 
       <div className="active-users">
         {
-          [...Array(5)].map((user, key) => (
-            <div className="user-icons">
-              {key}
-            </div>
+          avatars.map((user, key) => (
+            <img className="user-icons" src={user} alt="" />
           ))
         }
       </div>
