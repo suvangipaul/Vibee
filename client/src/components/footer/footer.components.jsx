@@ -6,7 +6,7 @@ function Footer() {
     <div class="l-footer">
     
     
-    <p>Vibee</p>
+    <p></p>
     </div>
     <ul class="r-footer">
     <li>

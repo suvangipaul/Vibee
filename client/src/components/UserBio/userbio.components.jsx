@@ -30,7 +30,9 @@ function UserBio() {
         <div classname="details3">
           <h3>User Statistics</h3>
           <hr/>
-          <div className="position2"></div>
+          <div className="position2 no-data">
+             No data Available
+          </div>
           
         </div>
     </div>
