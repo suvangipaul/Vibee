@@ -47,6 +47,12 @@ Our Website uses Auth0 for Authentication, you need to configure the `config.jso
 
 - `audience`
 ![](https://i.imgur.com/dE79hGC.png)
+## Video Demo
+
+
+
+https://user-images.githubusercontent.com/43869046/160275259-88f25360-c42b-4950-8821-7947fc38c07f.mp4
+
 
 # Members 
 
