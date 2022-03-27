@@ -10,3 +10,12 @@ export { default as CLUB2 } from './club2.png'
 export { default as CLUB3 } from './club3.png'
 export { default as CLUB4 } from './club4.png'
 export { default as CLUB5 } from './club5.png'
+
+export { default as AV1 } from './avatars/Ellipse.png'
+export { default as AV2 } from './avatars/Ellipse-1.png'
+export { default as AV3 } from './avatars/Ellipse-2.png'
+export { default as AV4 } from './avatars/Ellipse-3.png'
+export { default as AV5 } from './avatars/Ellipse-4.png'
+export { default as AV6 } from './avatars/Ellipse-5.png'
+export { default as AV7 } from './avatars/Ellipse-6.png'
+

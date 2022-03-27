@@ -3,7 +3,7 @@ import { TextField } from '@mui/material'
 import { useState } from 'react'
 import MenuItem from '@mui/material/MenuItem';
 function Sidebar() {
-  const [togglesideBar, setToggleSideBar] = useState(true)
+  const [togglesideBar, setToggleSideBar] = useState(false)
 
   const class_sidebar = togglesideBar ? "side-bar-inputs display-none" : "side-bar-inputs"
   const interests = ["Football", "Among Us", "UNO", "Chess", "CS GO","Cycling"]

@@ -17,7 +17,6 @@
 }
 
 .position2{
-   background: #C4C4C4;
     border-radius: 30px;
     height: 5rem;
 }
@@ -41,4 +40,18 @@
     text-align: center;
     margin: 0 .5rem;
     border-radius: 100px;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.membership:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 0px 20px rgba(58, 58, 58, 0.25);
+}
+
+.no-data {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
