@@ -9,6 +9,7 @@ Making life socially connected.
  - [Express.Js](https://expressjs.com/)
  - [Swiper Js](https://swiperjs.com/)
  - [MongooseJS](https://mongoosejs.com/)
+ - [Prisma](https://www.prisma.io/)
  - [Auth0](https://auth0.com/) `authentication provider`
 
 ## UI Design
