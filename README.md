@@ -13,6 +13,7 @@ Vibee is a website for social interaction through remote means. Its main idea is
  - [Node.JS](https://nodejs.org/en/)
  - [Express.Js](https://expressjs.com/)
  - [MongooseJS](https://mongoosejs.com/)
+ - [Prisma](https://www.prisma.io/)
  - [Auth0](https://auth0.com/) `authentication provider`
 
 ## Inspiration behind this
